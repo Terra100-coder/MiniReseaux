@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Terra Djakaridja",
+    "age": 22,
+    "location": "Abengourou",
+    "interests": ["Football", "Code", "Design"],
+    "avatar": "assets/1.png",
+    "bio": "Développeur passionné et stratège sur le terrain comme à l'écran."
+  },
+  {
+    "id": 2,
+    "name": "Nadia Koné",
+    "age": 27,
+    "location": "San Pedro",
+    "interests": ["Cuisine", "Code", "Voyage"],
+    "avatar": "assets/2.png",
+    "bio": "Toujours en quête de nouvelles histoires et paysages à explorer."
+  },
+  {
+    "id": 3,
+    "name": "Issa Traoré",
+    "age": 30,
+    "location": "Daloa",
+    "interests": ["Photographie", "Voyage", "Yoga"],
+    "avatar": "assets/3.png",
+    "bio": "Je mélange les saveurs et les idées, toujours curieux du monde autour de moi."
+  },
+  {
+    "id": 4,
+    "name": "Kady Touré",
+    "age": 35,
+    "location": "Yamoussoukro",
+    "interests": ["Cuisine", "Musique"],
+    "avatar": "assets/4.png",
+    "bio": "Je crée et je partage l'harmonie entre musique, formes et esprit."
+  },
+  {
+    "id": 5,
+    "name": "Fatou Bamba",
+    "age": 25,
+    "location": "Bouaké",
+    "interests": ["Design", "Musique", "Lecture"],
+    "avatar": "assets/5.png",
+    "bio": "Rêveuse et créative, je trouve l'inspiration dans les livres et les rythmes de la vie."
+  },
+  {
+    "id": 6,
+    "name": "Paul N'Guessan",
+    "age": 24,
+    "location": "Abidjan",
+    "interests": ["Jeux vidéo", "Sport", "Code"],
+    "avatar": "assets/6.png",
+    "bio": ""
+  },
+  {
+    "id": 7,
+    "name": "Aminata Kouassi",
+    "age": 29,
+    "location": "Abidjan",
+    "interests": ["Yoga", "Voyage", "Code"],
+    "avatar": "assets/7.png",
+    "bio": "Amoureuse des couleurs et des saveurs, je capture la vie à travers mon objectif."
+  },
+  {
+    "id": 8,
+    "name": "Cheick Fofana",
+    "age": 34,
+    "location": "Korhogo",
+    "interests": ["Musique", "Sport", "Football"],
+    "avatar": "assets/8.png",
+    "bio": "Jeune passionné de sport, je suis toujours a la recherche de challenge."
+  }
+]

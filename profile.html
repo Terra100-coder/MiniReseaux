@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Utilisateur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main>
+        <div id="profileContainer">
+            <div id="loader" class="loader"></div>
+
+            <div id="error" hidden>
+                <p>Profil introuvable !</p>
+            </div>
+
+            <div id="profileContent" hidden>
+                <img id="profileAvatar" src="" alt="">
+                <h1 id="profileName"></h1>
+                <div id="profileDetails"></div>
+                <p id="profileBio"></p>
+                <div id="profileInterests"></div>
+            </div>
+
+        </div>
+    </main>
+
+    <a href="index.html" class="back">Retour aux utilisateurs</a>
+
+    <script type="module" src="js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniRéseau</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>MiniRéseau - Liste des profils</h1>
+
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Rechercher par nom…">
+
+            <select id="citySelect">
+                <option value="">Toutes les villes</option>
+            </select>
+
+            <div id="interestsContainer" class="interests-box">
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="loader" class="loader">Chargement…</div>
+        <div id="error" class="error" hidden>Impossible de charger les données.</div>
+        <div id="noResults" class="empty" hidden>Aucun résultat trouvé.</div>
+
+        
+        <section id="cardsContainer" class="cards-grid"></section>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
