@@ -22,13 +22,29 @@
                 <div id="profileDetails"></div>
                 <p id="profileBio"></p>
                 <div id="profileInterests"></div>
-            </div>
-
+            </div><br>
+                <button id="contactBtn" class="btn-contact">Contacter cette personne</button>
         </div>
     </main>
 
     <a href="index.html" class="back">Retour aux utilisateurs</a>
 
     <script type="module" src="js/profile.js"></script>
+
+    <div id="contactModal" class="modal" hidden>
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Contacter <span id="modalName"></span></h2>
+            <form id="contactForm">
+                <label>Email :</label>
+                <input type="email" id="contactEmail" placeholder="Votre email" required>
+                <label>Message :</label>
+                <textarea id="contactMessage" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p id="successMsg" hidden>Message envoyé !</p>
+        </div>
+    </div>
+
 </body>
 </html>

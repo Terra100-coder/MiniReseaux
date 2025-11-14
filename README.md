@@ -40,7 +40,13 @@ La ville
 Les centres d'intérêt
 La biographie
 
-3- Retour à la liste des utilisateurs
+3- Modale “Contacter cette personne” :
+Bouton vert arrondi
+Formulaire email + message
+Validation basique et message de confirmation
+Fermeture avec croix ou clic en dehors
+
+4- Retour à la liste des utilisateurs
 Sur chaque page de profil, un lien "Retour aux utilisateurs" est disponible en bas de la carte pour revenir à la page principale.
 
 # Notes importantes

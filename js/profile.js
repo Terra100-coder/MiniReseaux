@@ -11,6 +11,13 @@ const profileDetails = $("#profileDetails");
 const profileBio = $("#profileBio");
 const profileInterests = $("#profileInterests");
 
+const contactBtn = $("#contactBtn");
+const contactModal = $("#contactModal");
+const closeModal = $("#closeModal");
+const modalName = $("#modalName");
+const contactForm = $("#contactForm");
+const successMsg = $("#successMsg");
+
 const params = new URLSearchParams(window.location.search);
 const userId = params.get("id");
 
@@ -61,5 +68,42 @@ function displayProfile(user) {
     profileInterests.appendChild(span);
   });
 }
+
+contactBtn.addEventListener("click", () => {
+  modalName.textContent = profileName.textContent;
+  contactModal.style.display = "flex";
+});
+
+closeModal.addEventListener("click", () => {
+  contactModal.style.display = "none";
+  successMsg.hidden = true;
+  contactForm.reset();
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target === contactModal) {
+    contactModal.style.display = "none";
+    successMsg.hidden = true;
+    contactForm.reset();
+  }
+});
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const email = $("#contactEmail").value.trim();
+  const message = $("#contactMessage").value.trim();
+
+  if (email && message) {
+    successMsg.hidden = false;
+
+    contactForm.reset();
+
+    setTimeout(() => {
+      contactModal.style.display = "none";
+      successMsg.hidden = true;
+    }, 2000);
+  }
+});
 
 loadProfile();
